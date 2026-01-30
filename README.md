@@ -8,8 +8,6 @@ Proyek ini adalah aplikasi berbasis Deep Learning untuk mendeteksi tumor otak me
 * Antarmuka sederhana (Sebutkan jika Anda menggunakan Streamlit/Flask/Gradio).
 
 ## Cara Menjalankan Aplikasi
-
-### 1. Clone Repositori
 Karena proyek ini menggunakan **Git LFS** untuk menyimpan model sebesar 250MB+, pastikan Anda sudah menginstal [Git LFS](https://git-lfs.github.com/) di komputer Anda, lalu jalankan:
 
 ```bash
@@ -17,4 +15,12 @@ git clone [https://github.com/satriaaawan/braintumor_detection.git](https://gith
 cd braintumor_detection
 git lfs pull
 
-python main.py / streamlit run app.py
+python -m venv venv
+# (Windows)
+.\venv\Scripts\activate
+# (Mac/Linux)
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
