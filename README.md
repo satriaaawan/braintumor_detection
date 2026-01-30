@@ -17,7 +17,7 @@ git lfs pull
 
 python -m venv venv
 # (Windows)
-.\venv\Scripts\activate
+.\.venv\Scripts\activate
 # (Mac/Linux)
 source venv/bin/activate
 
