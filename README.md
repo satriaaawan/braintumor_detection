@@ -2,12 +2,12 @@
 
 Proyek ini adalah aplikasi berbasis Deep Learning untuk mendeteksi tumor otak melalui citra MRI menggunakan model Keras/TensorFlow.
 
-## 📋 Fitur
+## Fitur
 * Deteksi tumor otak otomatis dari file gambar MRI.
 * Model menggunakan **Focal Loss** untuk menangani ketidakseimbangan data (Imbalanced Data).
 * Antarmuka sederhana (Sebutkan jika Anda menggunakan Streamlit/Flask/Gradio).
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 ### 1. Clone Repositori
 Karena proyek ini menggunakan **Git LFS** untuk menyimpan model sebesar 250MB+, pastikan Anda sudah menginstal [Git LFS](https://git-lfs.github.com/) di komputer Anda, lalu jalankan:
