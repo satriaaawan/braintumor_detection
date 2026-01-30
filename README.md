@@ -15,7 +15,7 @@ git clone https://github.com/satriaaawan/braintumor_detection.git
 cd braintumor_detection
 git lfs pull
 
-python -m venv venv
+python -m venv .venv
 # (Windows)
 .\.venv\Scripts\activate
 # (Mac/Linux)
